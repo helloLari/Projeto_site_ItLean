@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/contato1.css" />
+  </head>
+
+  <body>
+    <header class="navBar">
+      <div class="imgContainer">
+        <a href="index1.html">
+          <img src="imagens/logo.png" alt="" />
+        </a>
+      </div>
+      <div class="lista">
+        <ul>
+          <li><a href="aboutUs.html">Sobre</a></li>
+          <li><a href="solucao.html"> Soluções </a></li>
+          <li><a href="contato.html"> Contato </a></li>
+        </ul>
+      </div>
+      <div class="botao">
+        <input type="text" />
+        <button>Buscar</button>
+      </div>
+    </header>
+    <main>
+      <h2 class="endereço"> 
+        Entre em contato diretamente por: <br>
+        tel: 55 11 5505-0409 ou
+        email: contato@itlean.com.br
+      </h2>
+      <section class="container">
+        <form class="item01">
+          <table>
+            <td>
+              <tr>
+                <input type="text" title="Nome" placeholder="Nome Completo" required/> <!-- Inclui required para submeter form preenchido -->
+              </tr>
+              <tr>
+                <input type="email" title="Email" placeholder="Email"  required/>
+              </tr>
+              <tr>
+                <input list="tema" placeholder="Selecione o Tema:" />
+                <datalist id="tema" type="datalist" title="Tema">
+                  <option>Comercial</option>
+                  <option>Vagas</option>
+                  <option>Solidariedade</option>
+                  <option>Eventos</option>
+                  <option>Outros</option>
+                </datalist>
+              </tr>
+              <tr>
+                <input type="text" title="Assunto" placeholder="Assunto" />
+              </tr>
+              <tr>
+                <textarea
+                  ype="text"
+                  title="Mensagem"
+                  placeholder="Mensagem"
+                ></textarea>
+              </tr>
+              <button class="send"><b>ENVIAR</b></button>
+            </td>
+          </table>
+        </form>
+        <section class="item01">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4347.462604820761!2d-46.69615192403913!3d-23.61273370020765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce574bcfba7f27%3A0x52a8fa01b05344c3!2sIT%20Lean!5e0!3m2!1spt-BR!2sbr!4v1614261830576!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="texto">
+        <em> &copy; All Rights Reserved.</em>
+      </div>
+      <div class="footImgCont">
+        <a href="https://pt-br.facebook.com/ItLean/" target="_blank">
+          <img src="imagens/facebook-icon.png" alt="" />
+        </a>
+        <a href="https://www.instagram.com/itlean/?hl=en" target="_blank">
+          <img src="imagens/instagram-icon.png" alt="" />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/it-lean---brasil/?originalSubdomain=br"
+          target="_blank"
+        >
+          <img src="imagens/linkedin-icon.png" alt="" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

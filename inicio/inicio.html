@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(26, 26, 26);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+      }
+
+      .esquerda {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100vh;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .direita {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #df412c;
+        width: 50%;
+        height: 100vh;
+      }
+
+      .direita ul li {
+        list-style: none;
+        width: 200px;
+        height: 50px;
+        border: 3px solid black;
+        box-shadow: 0 2px 2px #333;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .direita a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .direita ul li:hover {
+        background-color: grey;
+        transition: 0.4s;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="esquerda">
+      <img src="layout_1_Final/imagens/it-branco.png" alt="Logo IT Lean" />
+    </section>
+
+    <section class="direita">
+      <nav>
+        <ul>
+          <li>
+            <a href="layout_1_Final/index1.html" target="_blank">Layout 1</a>
+          </li>
+          <li>
+            <a href="layout_2_final/index2.html " target="_blank">Layout 2</a>
+          </li>
+          <li>
+            <a href="layout_3_final/index3.html" target="_blank">Layout 3</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>

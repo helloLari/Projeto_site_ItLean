@@ -1,0 +1,243 @@
+:root {
+  --vermelho: #df412c;
+  --branco: #ffffff;
+  --cinza: #a19f9f;
+  --preto: #000;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+  font-family: "Poppins", sans-serif;
+}
+
+/* Exemple de gradiente 
+background-image: linear-gradient(to top, #df412c, #f55f71, #f986ac, #f4afd8, #f0d4f3, #eddaef, #eae0eb, #e7e6e7, #d5d4d5, #c4c2c2, #b2b0b1, #a19f9f);
+*/
+
+/* FONTE 1 */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+font-family: 'Open Sans', sans-serif; */
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* FONTE 2 */
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+font-family: 'Poppins', sans-serif; */
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* FONTE 3 */
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+font-family: 'Montserrat', sans-serif; */
+
+/* --------------------------------------------------------------------------------------------- */
+
+.navBar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-image: linear-gradient(
+    to left,
+    #df412c,
+    #df412cd7,
+    #eddaef,
+    #eae0eb,
+    #e7e6e7,
+    #d5d4d5,
+    #c4c2c2,
+    #858585,
+    #555151
+  );
+}
+
+.imgContainer {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+img {
+  position: relative;
+  top: -10px;
+  width: 45%;
+  height: 100px;
+  left: 150px;
+}
+
+.lista {
+  width: 40%;
+  float: left;
+  height: 100%;
+}
+
+.lista ul {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 20%;
+  left: 130px;
+  padding: 0;
+  margin: 0;
+}
+
+.lista ul li {
+  position: relative;
+  float: left;
+  padding: 0px 5px;
+  margin: 0 10px;
+}
+
+.lista ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px 10px;
+  display: block;
+}
+
+.lista ul li a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px 10px;
+  display: block;
+  background-color: white;
+  transition: 0.6s;
+  box-shadow: 2px 2px 2px 1px black;
+}
+
+.botao {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+.botao input,
+button {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  border-radius: 10px;
+  height: 40%;
+  width: 50%;
+  border: none;
+}
+
+.botao button {
+  width: 70px;
+  border: none;
+  background-color: white;
+  color: #000;
+}
+
+.botao button:hover {
+  width: 70px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: 0.6s;
+}
+
+/*
+    --------------------
+    --------------------
+    FIM da Estilização da navbar
+    --------------------
+    --------------------
+  */
+/*
+  --------------------
+  --------------------
+  Estilização da página Sobre nós
+  --------------------
+  --------------------
+  */
+
+.conteudo {
+  line-height: 1.6;
+  font-size: 1.3em;
+  padding: 4%;
+  text-align: justify;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #000;
+}
+
+p {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  background-color: var(--vermelho);
+  border: none;
+  border-radius: 40px 10px;
+}
+
+/*
+  --------------------
+  --------------------
+  Estilização do footer
+  --------------------
+  --------------------
+  */
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+  display: flex;
+  overflow-x: hidden;
+  position:absolute; /* Alterei essa e a proxima linha pra fixar footer */
+  bottom:0;
+}
+
+.texto {
+  height: 10%;
+  float: left;
+  width: 60%;
+  color: white;
+  position: relative;
+  left: 600px;
+  top: 35px;
+}
+
+.footImgCont {
+  float: right;
+  width: 25%;
+  position: relative;
+  top: 30px;
+  left: 100px;
+  height: 40%;
+}
+
+.footImgCont a {
+  text-decoration: none;
+}
+
+.footImgCont a img {
+  width: 13%;
+  height: 100%;
+  margin: 2%;
+}
+
+/*
+      --------------------
+      --------------------
+      FIM da Estilização do footer
+      --------------------
+      --------------------
+      */

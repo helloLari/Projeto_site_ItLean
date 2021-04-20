@@ -1,0 +1,359 @@
+:root {
+  --vermelho: #df412c;
+  --branco: #ffffff;
+  --cinza: #a19f9f;
+  --preto: #000;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+  font-family: "Open Sans", sans-serif;
+}
+
+/* MEU CÓDIGO */
+
+.container {
+  margin-top: 25px;
+}
+
+.solucoes {
+  position: fixed;
+  margin: 0 0 0 25px;
+}
+
+.solucoes a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: var(--vermelho);
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* #ams {
+    background-color: blueviolet;    
+} */
+
+#chatbot {
+  background-color: antiquewhite;
+}
+
+#software-factory {
+  background-color: chartreuse;
+}
+
+#mobile {
+  background-color: cornflowerblue;
+}
+
+#processes {
+  background-color: crimson;
+}
+
+#sharepoint {
+  background-color: hotpink;
+}
+
+.box {
+  height: 500px;
+  width: 700px;
+  margin: 0 auto 25px auto;
+  border-radius: 15px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(218, 214, 214);
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.b1 {
+  background-image: url("../imagens/banner-ams.jpg");
+}
+
+.b2 {
+  background-image: url("../imagens/banner-chatbot.jpg");
+  background-size: cover;
+}
+
+.b3 {
+  background-image: url("../imagens/banner-software.jpg");
+  background-size: cover;
+}
+
+.b4 {
+  background-image: url("../imagens/banner-mobile.jpg");
+  background-size: cover;
+}
+
+.b5 {
+  background-image: url("../imagens/banner-processes.jpg");
+  background-size: cover;
+}
+
+.b6 {
+  background-image: url("../imagens/banner-sharepoint.jpg");
+  background-size: cover;
+}
+
+.box-ul {
+  background-color: rgb(255, 255, 255, 0.7);
+  height: 180px;
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 60px auto 20px auto;
+}
+
+.box-ul ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.box-ul ul li:before {
+  content: "✓";
+  margin-left: 10px;
+  padding-right: 20px;
+}
+
+/* FIM DO MEU CÓDIGO */
+
+/*
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+*/
+
+/* CÓDIGO DO LÉO */
+
+/*
+--------------------
+--------------------
+Estilização da navbar
+--------------------
+--------------------
+*/
+
+.navBar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-image: linear-gradient(
+    to left,
+    #df412c,
+    #df412cd7,
+    #eddaef,
+    #eae0eb,
+    #e7e6e7,
+    #d5d4d5,
+    #c4c2c2,
+    #858585,
+    #555151
+  );
+}
+
+.imgContainer {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+img {
+  position: relative;
+  top: -10px;
+  width: 45%;
+  height: 100px;
+  left: 150px;
+}
+
+.lista {
+  width: 40%;
+  float: left;
+  height: 100%;
+}
+
+.lista ul {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 20%;
+  left: 130px;
+  padding: 0;
+  margin: 0;
+}
+
+.lista ul li {
+  position: relative;
+  float: left;
+  padding: 0px 5px;
+  margin: 0 10px;
+}
+
+.lista ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px 10px;
+  display: block;
+}
+
+.lista ul li a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 15px 10px;
+  display: block;
+  background-color: white;
+  transition: 0.6s;
+  box-shadow: 2px 2px 2px 1px black;
+}
+
+.botao {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+.botao input,
+button {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  border-radius: 10px;
+  height: 40%;
+  width: 50%;
+  border: none;
+}
+
+.botao button {
+  width: 70px;
+  border: none;
+  background-color: white;
+  color: #000;
+}
+
+.botao button:hover {
+  width: 70px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: 0.6s;
+}
+
+/*
+    --------------------
+    --------------------
+    FIM da Estilização da navbar
+    --------------------
+    --------------------
+  */
+
+.conteudo {
+  height: 500px;
+  background-color: white;
+  width: 100%;
+}
+
+.solucoes a:hover {
+  background-color: rgb(145, 145, 145);
+}
+
+.fixed {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+.fixed img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 2px;
+}
+
+/*
+  --------------------
+  --------------------
+  Estilização do footer
+  --------------------
+  --------------------
+  */
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+  display: flex;
+  overflow-x: hidden;
+}
+
+.texto {
+  height: 10%;
+  float: left;
+  width: 60%;
+  color: white;
+  position: relative;
+  left: 600px;
+  top: 35px;
+}
+
+.footImgCont {
+  float: right;
+  width: 25%;
+  position: relative;
+  top: 30px;
+  left: 100px;
+  height: 40%;
+}
+
+.footImgCont a {
+  text-decoration: none;
+}
+
+.footImgCont a img {
+  width: 13%;
+  height: 100%;
+  margin: 2%;
+}
+
+/*
+    --------------------
+    --------------------
+    FIM da Estilização do footer
+    --------------------
+    --------------------
+    */
